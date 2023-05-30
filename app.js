@@ -28,15 +28,24 @@
 
 //  start of for each array method
 
-let people = [
-  { name: "grace", age: 29, profession: "teacher", gender: "female", id: 1 },
-  { name: "race", age: 27, profession: "sales", gender: "male", id: 2 },
-  { name: "mace", age: 24, profession: "police", gender: "female", id: 3 },
-  { name: "bace", age: 22, profession: "nurse", gender: "male", id: 4 },
-  { name: "pace", age: 98, profession: "driver", gender: "female", id: 5 },
-];
+// let people = [
+//   { name: "grace", age: 29, profession: "teacher", gender: "female", id: 1 },
+//   { name: "race", age: 27, profession: "sales", gender: "male", id: 2 },
+//   { name: "mace", age: 24, profession: "police", gender: "female", id: 3 },
+//   { name: "bace", age: 22, profession: "nurse", gender: "male", id: 4 },
+//   { name: "pace", age: 98, profession: "driver", gender: "female", id: 5 },
+// ];
 
-people.forEach(function (any) {
-  console.log(any.name);
-});
+// people.forEach(function (any) {
+//   console.log(any.name);
+// });
 //  end of for each array method
+
+// start of map array method
+// let digit = [5, 7, 14, 20];
+// function digits(multiply) {
+//   return multiply * 2;
+// }
+
+// let gf = digit.map(digits);
+// console.log(gf);
